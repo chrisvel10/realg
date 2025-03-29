@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real G</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">TheRealGCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to complete this survey</p>
+    <form id="survey-form" method="post" action="google.com">
+        <fieldset class="field1">
+            <label id="name-label" for="Name">name<input class="input" id="name" placeholder="Enter your name" required></label>
+        </fieldset>
+        <fieldset class="field1">
+            <label id="email-label" for="Email">email</label><input class="input" id="email" type="email" placeholder="Enter your name" required></label>
+        </fieldset>
+        <fieldset class="field1">
+            <label id="number-label" for="Age"> age<input class="input" id="number" type="number" min="16" max="65" placeholder="Enter your name"></label>
+        </fieldset>
+        <fieldset class="field2">
+            <h3>Which option best describes your current status as a G</h3>
+            <label for="Option">
+                <select class="option" id="Option">
+                    <option>Select option</option>
+                    <option>I was born a G</option>
+                    <option>People dont know me son</option>
+                    <option>Im a fraud im from alabama</option>
+                    <option>My dad getting the milkski</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset class="field3">
+            <h3>Would you suggest this site to a friend</h3>
+            <div>
+            <label id="suggest">
+                <input id="suggest" type="radio" name="choice" value="yes"><strong>Yes</strong>
+            </label>
+            </div>
+            <div>
+                <label id="suggest">
+                    <input id="suggest" type="radio" name="choice" value="no"><strong>No</strong>
+                </label>
+                </div>
+                <div>
+                    <label id="suggest">
+                        <input id="suggest" type="radio" name="choice" value="maybe"><strong>Maybe</strong>
+                    </label>
+                    </div>
+        </fieldset>
+        <fieldset class="field4">
+            <h3>Which feature do you like on the site</h3>
+            <label for="feature">
+                <select class="option" id="dropdown">
+                    <option>select feature</option>
+                    <option>the colors</option>
+                    <option>the buttons</option>
+                    <option>i domt care</option>
+                    <option>this is just for the site</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset class="field5">
+            <h3>What would you like to see improve from your friend</h3>
+            <div>
+            <label for="improvement1">
+                <input  id="improvement1" type="checkbox" value="improve">Their lying
+            </label>
+            </div>
+            <div>
+                <label for="improvement2">
+                    <input  id="improvement2" type="checkbox" value="improve">Fitness
+                </label>
+                </div>
+                <div>
+                    <label for="improvement3">
+                        <input  id="improvement3" type="checkbox" value="improve">Smoking
+                    </label>
+                    </div>
+                    <div>
+                        <label for="improvement4">
+                            <input  id="improvement4" type="checkbox" value="improve">Car game
+                        </label>
+                        </div>
+                        <div>
+                            <label for="improvement5">
+                                <input  id="improvement5" type="checkbox" value="improve">Work Ethic
+                            </label>
+                            </div>
+                            <div>
+                                <label for="improvement6">
+                                    <input  id="improvement6" type="checkbox" value="improve">Money
+                                </label>
+                                </div>
+                                <div>
+                                    <label for="improvement7">
+                                        <input  id="improvement7" type="checkbox" value="improve">Gaming skills
+                                    </label>
+                                    </div>
+                                    <div>
+                                        <label for="improvement8">
+                                            <input  id="improvement8" type="checkbox" value="improve">Food
+                                        </label>
+                                        </div>
+                                        <div>
+                                            <label for="improvement9">
+                                                <input  id="improvement9" type="checkbox" value="improve">Taste in women
+                                            </label>
+                                            </div>
+                                            <div>
+                                                <label for="improvement10">
+                                                    <input  id="improvement10" type="checkbox" value="improve">Attitude
+                                                </label>
+                                                </div>
+                                                <div>
+                                                    <label for="improvement11">
+                                                        <input  id="improvement11" type="checkbox"value="improve">Style
+                                                    </label>
+                                                    </div>
+        </fieldset>
+        <fieldset class="field6">
+            <h3>Any comment you would like to make?</h3>
+            <label for="comments">
+                <textarea id="comments" placeholder="i like to code on my free time" rows="12" cols="65"></textarea>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
